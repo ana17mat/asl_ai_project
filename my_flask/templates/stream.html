@@ -1,9 +1,35 @@
 <html>
-    <head>
-        <title>ASL </title>
-    </head>
-    <body>
-        <h1>Video Stream</h1>
-        <img src="{{ url_for('video_feed') }}">
-    </body>
+
+<head>
+    <title>ASL</title>
+    <style>
+        body {
+            background-color: #495582;
+        }
+
+        a {
+            font: 25px 'courier new', sans-serif;
+        }
+
+        h1 {
+            font: 30px 'courier new', sans-serif;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        img {
+            border-radius: 2%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>A<a>I</a>SL</h1>
+    <img src="{{ url_for('video_feed') }}" style="vertical-align:middle">
+</body>
+
 </html>

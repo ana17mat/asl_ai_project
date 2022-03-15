@@ -81,4 +81,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     logger.debug("Starting server")
-    app.run(host=args.host, port=args.port)
+    app.run(debug=True, host=args.host, port=args.port)

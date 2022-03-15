@@ -117,7 +117,12 @@ class Camera:
     def get_frame(self, _bytes=True):
         if len(self.frames) > 0:
             if _bytes:
-                img = cv2.imencode(".png", self.frames[-1])[1].tobytes()
+                img1 = cv2.resize(self.frames[-1], (1152, 648))
+                img = cv2.imencode(".png", img1)[1].tobytes()
+
+                # print(self.frames[-1].shape)
+
+                #img = cv2.imencode(".png", self.frames[-1])[1].tobytes()
             else:
                 img = self.frames[-1]
         else:
