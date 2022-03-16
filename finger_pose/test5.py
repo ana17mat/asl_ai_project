@@ -3,19 +3,23 @@ from cv2 import imread
 import cv2
 import numpy as np
 from cvzone.HandTrackingModule import HandDetector
-import random
+#import random
 
-import time
+#import time
 
 from scipy.spatial import distance
 import pickle
 
-import pyttsx3
+#import pyttsx3
 from torch import flip
+from os import system
+#from gtts import gTTS
+#import os
 
-engine = pyttsx3.init()
-engine.setProperty("rate", 150)
-engine.setProperty("voice", "com.apple.speech.synthesis.voice.moira")
+
+#engine = pyttsx3.init()
+#engine.setProperty("rate", 150)
+#engine.setProperty("voice", "com.apple.speech.synthesis.voice.moira")
 
 
 # start webcam
@@ -50,7 +54,7 @@ while True:
         img,
         preds_str,
         # f"LETRA:{str('A')}",
-        (20, 650),
+        (20, 750),
         cv2.FONT_HERSHEY_SIMPLEX,
         1,
         (255, 0, 0),
@@ -86,16 +90,19 @@ while True:
         print(letramin)
 
     # pred to string to speech
-    # if key == ord("s"):
-    #     preds_str = "".join(preds).strip()
-    #     print(preds_str)
-    #     print("im here")
-    #     engine.say(preds_str)
-    #     tnow = time.time()
-    #     while time.time()-tnow < 10:
-    #         engine.runAndWait()
-    #     print("now here", key)
-    #     preds = [" "]
+    if key == ord("s"):
+        preds_str = "".join(preds).strip()
+        print(preds_str)
+        print("im here")
+
+        system('say '+preds_str)
+        #myobj = gTTS(text=preds_str, lang='en', slow=False)
+        # myobj.save("welcome.mp3")
+        #os.system("mpg321 welcome.mp3")
+        # engine.say(preds_str)
+        # engine.runAndWait()
+        print("now here", key)
+        preds = [" "]
 
     # CLOSE WITH ESC KEY
     if key == 27:

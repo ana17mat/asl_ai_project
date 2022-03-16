@@ -6,11 +6,12 @@ from cvzone.HandTrackingModule import HandDetector
 import pickle
 from scipy.spatial import distance
 import numpy as np
+from os import system
 #import getch
 import warnings
 warnings.filterwarnings(action='ignore')
 
-detector = HandDetector(detectionCon=0.8, maxHands=2)
+detector = HandDetector(detectionCon=0.8, maxHands=1)
 positions = []
 preds_m = [" ", " ", " ", " ", " "]
 preds = [" "]
@@ -61,9 +62,9 @@ class Camera:
             preds_str = "".join(preds).strip().upper()
             cv2.putText(
                 im,
-                preds_str,
+                preds_str[-30:],
                 # f"LETRA:{str('A')}",
-                (20, 650),
+                (30, 700),
                 cv2.FONT_HERSHEY_DUPLEX,
                 2,
                 (172, 90, 255),
@@ -98,8 +99,9 @@ class Camera:
                 # if key == " ":
 
             if not hands and preds[-1] != " ":
+                to_say = "".join(preds).strip().split(' ')[-1]
+                system('say '+to_say)
                 preds.append(" ")
-                preds_str = "".join(preds).strip()
                 print(" ")
 
             if v:

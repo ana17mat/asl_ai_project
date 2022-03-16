@@ -1,22 +1,12 @@
 <html>
-
 <head>
-    <title>ASL</title>
+    <title>AiSL</title>
+    <link href="static/css/styles.css" rel="stylesheet" type="text/css" />
     <style>
         body {
-            background-color: #495582;
+            background-color: #1abc9c;
+            ;
         }
-
-        a {
-            font: 25px 'courier new', sans-serif;
-        }
-
-        h1 {
-            font: 30px 'courier new', sans-serif;
-            text-align: center;
-            color: whitesmoke;
-        }
-
         img {
             border-radius: 2%;
             display: block;
@@ -25,11 +15,10 @@
         }
     </style>
 </head>
-
 <body>
-
-    <h1>A<a>I</a>SL</h1>
-    <img src="{{ url_for('video_feed') }}" style="vertical-align:middle">
+    <h1 class="page-section-heading text-center text-white text-secondary mb-0">AiSL</h1>
+    <img src=" {{ url_for('video_feed') }}" style="vertical-align:middle">
+    <br>
 </body>
 
 </html>
