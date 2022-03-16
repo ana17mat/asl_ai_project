@@ -754,3 +754,67 @@
 2022-03-16 14:14:48,440 [DEBUG] __main__:: Requested /
 2022-03-16 14:14:56,928 [DEBUG] __main__:: Requested stream page
 2022-03-16 14:14:57,030 [DEBUG] __main__:: Starting stream
+2022-03-16 14:18:34,909 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 14:18:36,225 [DEBUG] camera:: Starting thread
+2022-03-16 14:18:36,225 [DEBUG] camera:: Observation started
+2022-03-16 14:18:36,225 [INFO] camera:: Thread started
+2022-03-16 14:18:36,236 [DEBUG] __main__:: Starting server
+2022-03-16 14:18:42,516 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 14:18:43,435 [DEBUG] camera:: Starting thread
+2022-03-16 14:18:43,436 [DEBUG] camera:: Observation started
+2022-03-16 14:18:43,437 [INFO] camera:: Thread started
+2022-03-16 14:18:43,453 [DEBUG] __main__:: Starting server
+2022-03-16 14:18:49,048 [DEBUG] __main__:: Requested /
+2022-03-16 14:19:01,183 [DEBUG] __main__:: Requested stream page
+2022-03-16 14:19:01,261 [DEBUG] __main__:: Starting stream
+2022-03-16 14:20:28,811 [DEBUG] __main__:: Requested /
+2022-03-16 14:20:44,276 [DEBUG] __main__:: Requested stream page
+2022-03-16 14:20:44,352 [DEBUG] __main__:: Starting stream
+2022-03-16 14:20:50,735 [DEBUG] __main__:: Requested stream page
+2022-03-16 14:20:50,822 [DEBUG] __main__:: Starting stream
+2022-03-16 14:20:57,630 [DEBUG] __main__:: Requested stream page
+2022-03-16 14:20:57,694 [DEBUG] __main__:: Starting stream
+2022-03-16 14:21:18,592 [DEBUG] __main__:: Requested stream page
+2022-03-16 14:21:18,626 [DEBUG] __main__:: Starting stream
+2022-03-16 15:27:56,325 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 15:27:57,196 [DEBUG] camera:: Starting thread
+2022-03-16 15:27:57,196 [DEBUG] camera:: Observation started
+2022-03-16 15:27:57,196 [INFO] camera:: Thread started
+2022-03-16 15:27:57,203 [DEBUG] __main__:: Starting server
+2022-03-16 15:28:02,035 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 15:28:02,750 [DEBUG] camera:: Starting thread
+2022-03-16 15:28:02,751 [DEBUG] camera:: Observation started
+2022-03-16 15:28:02,752 [INFO] camera:: Thread started
+2022-03-16 15:28:02,759 [DEBUG] __main__:: Starting server
+2022-03-16 15:28:02,951 [DEBUG] __main__:: Requested /
+2022-03-16 15:28:10,143 [DEBUG] __main__:: Requested stream page
+2022-03-16 15:28:10,269 [DEBUG] __main__:: Starting stream
+2022-03-16 15:30:24,378 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 15:30:25,250 [DEBUG] camera:: Starting thread
+2022-03-16 15:30:25,250 [DEBUG] camera:: Observation started
+2022-03-16 15:30:25,250 [INFO] camera:: Thread started
+2022-03-16 15:30:25,254 [DEBUG] __main__:: Starting server
+2022-03-16 15:30:28,011 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 15:30:28,396 [DEBUG] camera:: Starting thread
+2022-03-16 15:30:28,396 [DEBUG] camera:: Observation started
+2022-03-16 15:30:28,396 [INFO] camera:: Thread started
+2022-03-16 15:30:28,400 [DEBUG] __main__:: Starting server
+2022-03-16 15:30:38,327 [DEBUG] __main__:: Requested /
+2022-03-16 15:30:47,143 [DEBUG] __main__:: Requested stream page
+2022-03-16 15:30:47,164 [DEBUG] __main__:: Starting stream
+2022-03-16 15:30:52,921 [DEBUG] __main__:: Requested /
+2022-03-16 15:30:58,513 [DEBUG] __main__:: Requested stream page
+2022-03-16 15:30:58,573 [DEBUG] __main__:: Starting stream
+2022-03-16 16:05:34,918 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 16:05:35,860 [DEBUG] camera:: Starting thread
+2022-03-16 16:05:35,860 [DEBUG] camera:: Observation started
+2022-03-16 16:05:35,860 [INFO] camera:: Thread started
+2022-03-16 16:05:35,864 [DEBUG] __main__:: Starting server
+2022-03-16 16:05:38,859 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-16 16:05:39,234 [DEBUG] camera:: Starting thread
+2022-03-16 16:05:39,234 [DEBUG] camera:: Observation started
+2022-03-16 16:05:39,234 [INFO] camera:: Thread started
+2022-03-16 16:05:39,240 [DEBUG] __main__:: Starting server
+2022-03-16 16:05:46,040 [DEBUG] __main__:: Requested /
+2022-03-16 16:05:56,073 [DEBUG] __main__:: Requested stream page
+2022-03-16 16:05:56,113 [DEBUG] __main__:: Starting stream

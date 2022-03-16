@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from cvzone.HandTrackingModule import HandDetector
 #import random
-
+import getch
 #import time
 
 from scipy.spatial import distance
@@ -48,6 +48,9 @@ while True:
     img = cv2.flip(img, 1)  # flip image in axis 1
     # detect the hand in each frame
     # hands, img = detector.findHands(img, flipType=False)
+
+
+
     hands, img = detector.findHands(img, flipType=False)
 
     cv2.putText(
@@ -70,7 +73,6 @@ while True:
         letramin = knn_asl.predict([hpred])[0]
         preds_m.append(letramin)
         preds_m = preds_m
-        print(preds_m)
 
     cv2.imshow("ASL", img)
 
@@ -79,7 +81,6 @@ while True:
     if not hands and preds[-1] != " ":
         preds.append(" ")
         preds_str = "".join(preds).strip()
-        print(" ")
 
     # pred with space key
     if key == 32:
@@ -87,24 +88,18 @@ while True:
         letramin = knn_asl.predict([hpred])[0]
         preds.append(letramin)
         preds_str = "".join(preds).strip()
-        print(letramin)
 
     # pred to string to speech
     if key == ord("s"):
         preds_str = "".join(preds).strip()
-        print(preds_str)
-        print("im here")
-
         system('say '+preds_str)
         #myobj = gTTS(text=preds_str, lang='en', slow=False)
         # myobj.save("welcome.mp3")
         #os.system("mpg321 welcome.mp3")
         # engine.say(preds_str)
         # engine.runAndWait()
-        print("now here", key)
         preds = [" "]
 
     # CLOSE WITH ESC KEY
     if key == 27:
-        print(preds)
         break

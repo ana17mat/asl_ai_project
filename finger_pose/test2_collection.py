@@ -4,7 +4,6 @@ import cv2
 import numpy as np
 from cvzone.HandTrackingModule import HandDetector
 import random
-
 import numpy as np
 from scipy.spatial import distance
 import pickle
@@ -17,7 +16,7 @@ cap.set(3, 1280)  # width
 cap.set(4, 720)  # height
 
 # Create HandDetector object
-detector = HandDetector(detectionCon=0.8, maxHands=2)
+detector = HandDetector(detectionCon=0.8, maxHands=1)
 
 positions = []
 while True:
@@ -36,8 +35,8 @@ while True:
     key = cv2.waitKey(1)  # 1 ms delay
 
 
-
     if key in range(97,123):
+        print(key)
         try:
             dictletras[chr(key)]+=[originwrist]
         except:
@@ -45,15 +44,15 @@ while True:
 
 
 
-    # CLOSE WITH ESC KEY 
+    # CLOSE WITH ESC KEY
     if key == 27:
-
-        print(dictletras)
-
         # create a binary pickle file 
-        f = open("dictletras_sdfhgjhkj.pkl","wb")
+        f = open("dictletras_more2.pkl","wb")
         # write the python object (dict) to pickle file
         pickle.dump(dictletras,f)
         # close file
         f.close()
         break
+
+
+    
