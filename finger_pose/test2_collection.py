@@ -36,18 +36,21 @@ while True:
 
 
     if key in range(97,123):
+    #if key == 32:
         print(key)
         try:
             dictletras[chr(key)]+=[originwrist]
+            #dictletras['love']+=[originwrist]
         except:
             dictletras[chr(key)]=[originwrist]
+            #dictletras['love']=[originwrist]
 
 
 
     # CLOSE WITH ESC KEY
     if key == 27:
         # create a binary pickle file 
-        f = open("dictletras_nnn.pkl","wb")
+        f = open("dictletras_mais5.pkl","wb")
         # write the python object (dict) to pickle file
         pickle.dump(dictletras,f)
         # close file

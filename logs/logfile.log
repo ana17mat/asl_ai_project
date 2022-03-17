@@ -1197,3 +1197,177 @@
 2022-03-17 00:03:48,699 [DEBUG] __main__:: Requested /
 2022-03-17 00:04:25,292 [DEBUG] __main__:: Requested /
 2022-03-17 00:04:38,658 [DEBUG] __main__:: Requested /
+2022-03-17 10:45:52,268 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 10:45:53,236 [DEBUG] camera:: Starting thread
+2022-03-17 10:45:53,237 [DEBUG] camera:: Observation started
+2022-03-17 10:45:53,237 [INFO] camera:: Thread started
+2022-03-17 10:45:53,241 [DEBUG] __main__:: Starting server
+2022-03-17 10:45:55,810 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 10:45:56,319 [DEBUG] camera:: Starting thread
+2022-03-17 10:45:56,319 [DEBUG] camera:: Observation started
+2022-03-17 10:45:56,323 [INFO] camera:: Thread started
+2022-03-17 10:45:56,337 [DEBUG] __main__:: Starting server
+2022-03-17 10:46:36,243 [DEBUG] __main__:: Requested /
+2022-03-17 10:47:27,948 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:47:28,038 [DEBUG] __main__:: Starting stream
+2022-03-17 10:48:55,935 [DEBUG] __main__:: Requested /
+2022-03-17 10:49:42,825 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 10:49:43,747 [DEBUG] camera:: Starting thread
+2022-03-17 10:49:43,748 [DEBUG] camera:: Observation started
+2022-03-17 10:49:43,748 [INFO] camera:: Thread started
+2022-03-17 10:49:43,751 [DEBUG] __main__:: Starting server
+2022-03-17 10:49:47,103 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 10:49:47,496 [DEBUG] camera:: Starting thread
+2022-03-17 10:49:47,496 [DEBUG] camera:: Observation started
+2022-03-17 10:49:47,496 [INFO] camera:: Thread started
+2022-03-17 10:49:47,500 [DEBUG] __main__:: Starting server
+2022-03-17 10:49:47,646 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:49:47,748 [DEBUG] __main__:: Starting stream
+2022-03-17 10:50:56,761 [DEBUG] __main__:: Starting stream
+2022-03-17 10:53:06,482 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:53:06,544 [DEBUG] __main__:: Starting stream
+2022-03-17 10:53:16,786 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:53:16,832 [DEBUG] __main__:: Starting stream
+2022-03-17 10:53:40,594 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:53:40,633 [DEBUG] __main__:: Starting stream
+2022-03-17 10:54:21,643 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:54:21,709 [DEBUG] __main__:: Starting stream
+2022-03-17 10:55:50,185 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:55:50,240 [DEBUG] __main__:: Starting stream
+2022-03-17 10:56:07,549 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:56:07,593 [DEBUG] __main__:: Starting stream
+2022-03-17 10:56:10,070 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:56:10,105 [DEBUG] __main__:: Starting stream
+2022-03-17 10:56:31,231 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:56:31,308 [DEBUG] __main__:: Starting stream
+2022-03-17 10:56:53,565 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:56:53,653 [DEBUG] __main__:: Starting stream
+2022-03-17 10:57:22,180 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:57:22,228 [DEBUG] __main__:: Starting stream
+2022-03-17 10:58:29,632 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:58:29,669 [DEBUG] __main__:: Starting stream
+2022-03-17 10:59:16,216 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:59:16,267 [DEBUG] __main__:: Starting stream
+2022-03-17 10:59:26,630 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:59:26,696 [DEBUG] __main__:: Starting stream
+2022-03-17 10:59:51,605 [DEBUG] __main__:: Requested stream page
+2022-03-17 10:59:51,711 [DEBUG] __main__:: Starting stream
+2022-03-17 11:00:19,314 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:00:19,365 [DEBUG] __main__:: Starting stream
+2022-03-17 11:00:45,823 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:00:45,853 [DEBUG] __main__:: Starting stream
+2022-03-17 11:00:49,154 [DEBUG] __main__:: Requested /
+2022-03-17 11:02:05,795 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:02:05,890 [DEBUG] __main__:: Starting stream
+2022-03-17 11:05:08,465 [DEBUG] __main__:: Requested /
+2022-03-17 11:05:09,768 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:05:09,823 [DEBUG] __main__:: Starting stream
+2022-03-17 11:07:04,088 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:07:04,120 [DEBUG] __main__:: Starting stream
+2022-03-17 11:07:47,045 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:07:47,089 [DEBUG] __main__:: Starting stream
+2022-03-17 11:08:18,654 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:08:18,693 [DEBUG] __main__:: Starting stream
+2022-03-17 11:08:48,461 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:08:48,502 [DEBUG] __main__:: Starting stream
+2022-03-17 11:09:07,128 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:09:07,207 [DEBUG] __main__:: Starting stream
+2022-03-17 11:10:01,852 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:10:01,973 [DEBUG] __main__:: Starting stream
+2022-03-17 11:10:02,770 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:10:02,805 [DEBUG] __main__:: Starting stream
+2022-03-17 11:10:12,142 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:10:12,198 [DEBUG] __main__:: Starting stream
+2022-03-17 11:10:30,895 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:10:30,925 [DEBUG] __main__:: Starting stream
+2022-03-17 11:10:31,450 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:10:31,509 [DEBUG] __main__:: Starting stream
+2022-03-17 11:12:11,583 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:12:11,672 [DEBUG] __main__:: Starting stream
+2022-03-17 11:12:12,436 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:12:12,463 [DEBUG] __main__:: Starting stream
+2022-03-17 11:13:48,848 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:13:48,880 [DEBUG] __main__:: Starting stream
+2022-03-17 11:13:49,754 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:13:49,782 [DEBUG] __main__:: Starting stream
+2022-03-17 11:15:46,670 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:15:46,811 [DEBUG] __main__:: Starting stream
+2022-03-17 11:17:03,113 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:17:03,150 [DEBUG] __main__:: Starting stream
+2022-03-17 11:18:44,631 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:18:44,702 [DEBUG] __main__:: Starting stream
+2022-03-17 11:19:12,082 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:19:12,136 [DEBUG] __main__:: Starting stream
+2022-03-17 11:19:22,185 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:19:22,221 [DEBUG] __main__:: Starting stream
+2022-03-17 11:20:06,571 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:20:06,671 [DEBUG] __main__:: Starting stream
+2022-03-17 11:20:55,638 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:20:55,669 [DEBUG] __main__:: Starting stream
+2022-03-17 11:21:53,963 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:21:54,016 [DEBUG] __main__:: Starting stream
+2022-03-17 11:22:18,205 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:22:18,303 [DEBUG] __main__:: Starting stream
+2022-03-17 11:22:36,772 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:22:36,812 [DEBUG] __main__:: Starting stream
+2022-03-17 11:25:30,147 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:25:30,185 [DEBUG] __main__:: Starting stream
+2022-03-17 11:25:54,362 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:25:54,451 [DEBUG] __main__:: Starting stream
+2022-03-17 11:26:35,104 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:26:35,151 [DEBUG] __main__:: Starting stream
+2022-03-17 11:28:30,987 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:28:31,075 [DEBUG] __main__:: Starting stream
+2022-03-17 11:30:21,735 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:30:21,784 [DEBUG] __main__:: Starting stream
+2022-03-17 11:30:26,512 [DEBUG] __main__:: Requested /
+2022-03-17 11:30:33,854 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:30:33,901 [DEBUG] __main__:: Starting stream
+2022-03-17 11:31:09,110 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:31:09,181 [DEBUG] __main__:: Starting stream
+2022-03-17 11:32:53,081 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:32:53,186 [DEBUG] __main__:: Starting stream
+2022-03-17 11:33:58,680 [DEBUG] __main__:: Requested /
+2022-03-17 11:34:41,015 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:34:41,088 [DEBUG] __main__:: Starting stream
+2022-03-17 11:35:02,293 [DEBUG] __main__:: Starting stream
+2022-03-17 11:35:08,149 [DEBUG] __main__:: Starting stream
+2022-03-17 11:35:17,933 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:35:18,021 [DEBUG] __main__:: Starting stream
+2022-03-17 11:35:51,275 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:35:51,313 [DEBUG] __main__:: Starting stream
+2022-03-17 11:36:16,872 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:36:16,921 [DEBUG] __main__:: Starting stream
+2022-03-17 11:37:47,513 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:37:47,592 [DEBUG] __main__:: Starting stream
+2022-03-17 11:38:03,096 [DEBUG] __main__:: Requested /
+2022-03-17 11:38:10,414 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:38:10,462 [DEBUG] __main__:: Starting stream
+2022-03-17 11:38:17,704 [DEBUG] __main__:: Starting stream
+2022-03-17 11:38:25,839 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:38:25,893 [DEBUG] __main__:: Starting stream
+2022-03-17 11:38:36,474 [DEBUG] __main__:: Starting stream
+2022-03-17 11:39:01,457 [DEBUG] __main__:: Starting stream
+2022-03-17 11:39:10,973 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:39:11,031 [DEBUG] __main__:: Starting stream
+2022-03-17 11:39:59,861 [DEBUG] __main__:: Requested /
+2022-03-17 11:40:35,397 [DEBUG] __main__:: Requested /
+2022-03-17 11:42:36,471 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:42:36,513 [DEBUG] __main__:: Starting stream
+2022-03-17 11:45:13,434 [DEBUG] __main__:: Requested stream page
+2022-03-17 11:45:13,534 [DEBUG] __main__:: Starting stream
+2022-03-17 12:08:23,954 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 12:08:24,844 [DEBUG] camera:: Starting thread
+2022-03-17 12:08:24,844 [DEBUG] camera:: Observation started
+2022-03-17 12:08:24,845 [INFO] camera:: Thread started
+2022-03-17 12:08:24,848 [DEBUG] __main__:: Starting server
+2022-03-17 12:08:27,088 [INFO] camera:: Initializing camera class with 60 fps and video_source=0
+2022-03-17 12:08:27,482 [DEBUG] camera:: Starting thread
+2022-03-17 12:08:27,482 [DEBUG] camera:: Observation started
+2022-03-17 12:08:27,482 [INFO] camera:: Thread started
+2022-03-17 12:08:27,487 [DEBUG] __main__:: Starting server
+2022-03-17 12:08:37,044 [DEBUG] __main__:: Requested /
+2022-03-17 12:10:01,703 [DEBUG] __main__:: Requested stream page
+2022-03-17 12:10:01,912 [DEBUG] __main__:: Starting stream
+2022-03-17 12:12:00,253 [DEBUG] __main__:: Requested stream page
+2022-03-17 12:12:00,559 [DEBUG] __main__:: Starting stream
