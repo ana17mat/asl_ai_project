@@ -12,13 +12,14 @@ import warnings
 warnings.filterwarnings(action='ignore')
 
 detector = HandDetector(detectionCon=0.8, maxHands=1)
-positions = []
+#positions = []
 preds_m = [" ", " ", " ", " ", " "]
 preds = [" "]
 knn_asl = pickle.load(
-    open("/Users/anamatias/Desktop/FINAL_PROJECT/asl_project/knn_asl.p", "rb"))
+    open("/Users/anamatias/Desktop/FINAL_PROJECT/asl_project/knn_asl_162100_newo.p", "rb"))
 #preds_str = "".join(preds).strip()
-
+# knn_asl_161828.p knn_asl_162034.p
+# 'knn_asl_162100_newo.p'
 
 logger = logging.getLogger(__name__)
 
@@ -60,6 +61,7 @@ class Camera:
             hands, im = detector.findHands(im, flipType=False)
 
             preds_str = "".join(preds).strip().upper()
+
             cv2.putText(
                 im,
                 preds_str[-30:],
@@ -74,11 +76,21 @@ class Camera:
             if hands:
                 lmList = hands[0]["lmList"]
                 pos = [l[0:2] for l in lmList]
-                originwrist = [[pos[0][0] - l[0], pos[0][1] - l[1]]
-                               for l in pos]
-                positions.append(pos)
 
-                hpred = [item for sublist in originwrist for item in sublist]
+                # ORIGINWRIST
+                # originw = [[pos[0][0] - l[0], pos[0][1] - l[1]]
+                #             for l in pos]
+
+                # ORIGINPREVIOUS
+                originw = pos
+                for i in range(20, 0, -1):
+                    originw[i][0] = originw[i-1][0]-originw[i][0]
+                    originw[i][1] = originw[i-1][1]-originw[i][1]
+                originw[0] = [0, 0]
+
+                # positions.append(pos)
+                hpred = [item for sublist in originw for item in sublist]
+
                 letramin = knn_asl.predict([hpred])[0]
                 preds_m.append(letramin)
                 # print(preds_m)
@@ -87,7 +99,7 @@ class Camera:
 
                 if all([preds_m[-5] != preds_m[-4], preds_m[-4] == preds_m[-3], preds_m[-3] == preds_m[-2], preds_m[-2] == preds_m[-1]]):
                     preds.append(preds_m[-1])
-                    print(preds)
+                    # print(preds)
 
                 # print(preds_m)
 
@@ -102,7 +114,7 @@ class Camera:
                 to_say = "".join(preds).strip().split(' ')[-1]
                 system('say '+to_say)
                 preds.append(" ")
-                print(" ")
+                #print(" ")
 
             if v:
                 if len(self.frames) == self.max_frames:

@@ -47,7 +47,7 @@ while True:
     # CLOSE WITH ESC KEY
     if key == 27:
         # create a binary pickle file 
-        f = open("dictletras_more2.pkl","wb")
+        f = open("dictletras_nnn.pkl","wb")
         # write the python object (dict) to pickle file
         pickle.dump(dictletras,f)
         # close file

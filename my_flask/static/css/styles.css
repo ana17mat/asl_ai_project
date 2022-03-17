@@ -11442,7 +11442,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + 85px);  /*AQUI mudei ERA 104px*/
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {

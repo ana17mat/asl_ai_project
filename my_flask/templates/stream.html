@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>AiSL</title>
     <link href="static/css/styles.css" rel="stylesheet" type="text/css" />
@@ -7,6 +8,7 @@
             background-color: #1abc9c;
             ;
         }
+
         img {
             border-radius: 2%;
             display: block;
@@ -15,10 +17,18 @@
         }
     </style>
 </head>
+
 <body>
     <h1 class="page-section-heading text-center text-white text-secondary mb-0">AiSL</h1>
     <img src=" {{ url_for('video_feed') }}" style="vertical-align:middle">
     <br>
+
+
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small> &copy; 2022 Developed by <a href="https://github.com/ana17mat"
+                    target="_blank">Ana
+                    Matias</a></small></div>
+    </div>
 </body>
 
 </html>
