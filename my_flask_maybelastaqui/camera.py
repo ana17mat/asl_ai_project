@@ -20,8 +20,6 @@ knn_asl = pickle.load(
 #preds_str = "".join(preds).strip()
 # knn_asl_161828.p knn_asl_162034.p
 # 'knn_asl_162100_newo.p'
-# rf_newo_171333.p
-# knn_asl_171713_newo.p
 
 logger = logging.getLogger(__name__)
 
@@ -99,20 +97,15 @@ class Camera:
                 # preds_m.append(letramin)
                 #preds_m = preds_m[1:]
 
-                if all([preds_m[-1] != 's', preds_m[-1] != 't']):
-                    if all([preds_m[-5] != preds_m[-4], preds_m[-4] == preds_m[-3], preds_m[-3] == preds_m[-2], preds_m[-2] == preds_m[-1]]):
-                        preds.append(preds_m[-1])
-                else:
-                    if all([preds_m[-7] != preds_m[-6], preds_m[-6] == preds_m[-5], preds_m[-5] == preds_m[-4], preds_m[-4] == preds_m[-3], preds_m[-3] == preds_m[-2], preds_m[-2] == preds_m[-1]]):
-                        preds.append(preds_m[-1])
-
+                if all([preds_m[-5] != preds_m[-4], preds_m[-4] == preds_m[-3], preds_m[-3] == preds_m[-2], preds_m[-2] == preds_m[-1]]):
+                    preds.append(preds_m[-1])
                     # print(preds)
 
                 # print(preds_m)
 
                 #print(f"letramin = {letramin}, preds = {preds}")
 
-             # cv2.waitKey(1)  # 1 ms delay
+                # key = getch.getch()  # cv2.waitKey(1)  # 1 ms delay
                 # print("KEY:", key)
                 # pred with space key
                 # if key == " ":
