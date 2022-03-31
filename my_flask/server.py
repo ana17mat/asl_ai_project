@@ -1,10 +1,12 @@
 from flask import Flask, render_template, send_from_directory, Response
 from pathlib import Path
-from capture import capture_and_save
+#from capture import capture_and_save
 from camera import Camera
-import argparse, logging, logging.config, conf
+import argparse
+import logging
+import logging.config  # ,# conf
 
-logging.config.dictConfig(conf.dictConfig)
+# logging.config.dictConfig(conf.dictConfig)
 logger = logging.getLogger(__name__)
 
 
@@ -14,6 +16,7 @@ app = Flask(__name__)
 
 camera = Camera(fps=60)
 camera.run()
+
 
 @app.after_request
 def add_header(r):
@@ -34,12 +37,12 @@ def entrypoint():
     return render_template("index.html")
 
 
-@app.route("/r")
-def capture():
-    logger.debug("Requested capture")
-    im = camera.get_frame(_bytes=False)
-    capture_and_save(im)
-    return render_template("send_to_init.html")
+# @app.route("/r")
+# def capture():
+#     logger.debug("Requested capture")
+#     im = camera.get_frame(_bytes=False)
+#     capture_and_save(im)
+#     return render_template("send_to_init.html")
 
 
 # @app.route("/images/last")
@@ -75,11 +78,12 @@ def video_feed():
 if __name__ == "__main__":
     # socketio.run(app,host="0.0.0.0",port="3005",threaded=True)
     parser = argparse.ArgumentParser()
-    parser.add_argument("-p", "--port", type=int, default=5000, help="Running port")
+    parser.add_argument("-p", "--port", type=int,
+                        default=5000, help="Running port")
     parser.add_argument(
         "-H", "--host", type=str, default="0.0.0.0", help="Address to broadcast"
     )
     args = parser.parse_args()
     logger.debug("Starting server")
-    #debug=True, 
-    app.run(host=args.host, port=args.port)
+    # debug=True,
+    app.run(debug=True, host=args.host, port=args.port)
