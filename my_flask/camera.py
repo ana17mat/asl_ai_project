@@ -14,7 +14,7 @@ detector = HandDetector(detectionCon=0.8, maxHands=1)
 
 preds = [" "]
 knn_asl = pickle.load(
-    open("nbs_dicts_models/knn_asl_162100_newo.p", "rb"))
+    open("nbs_dicts_models/knn_asl_162100_B.p", "rb"))
 #preds_str = "".join(preds).strip()
 # knn_asl_161828.p knn_asl_162034.p
 # 'knn_asl_162100_newo.p'

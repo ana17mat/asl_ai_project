@@ -1,0 +1,10 @@
+
+
+A: w/ coordinates x and y all in relation to landmark 0 (WRIST)
+
+
+B: w/ coordinates x and y all in relation to previous nr landmark
+
+
+
+
